@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	text-align: center;
+	/* background:red; */
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: rgb(230, 224, 224);
+}
+
+.App-restaurant {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.App-restaurant-card {
+	margin: 10px 0;
+	width: 20%;
+	border-radius: 3%;
+	color: black;
+}
+
+.App-restaurant-card img{
+	width: 38%;
+	cursor: pointer;
+}
+
+.individual-restaurant {
+	margin-top: 1%;
+	margin:1% 30%;
+	background-color: rgb(221, 178, 171);
+	border: 1px solid black
+}
+
+.individual-restaurant img{
+	width: 35%;
+}
+
+.individual-restaurant a{
+	display: block;
+	font-size: 26px;
+	color: black;
+}
+
+button {
+	background: none;
+	font-family: inherit;
+	font-size: inherit;
+  border: 3px solid rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 15px 40px;
+	display: inline-block;
+	margin: 5px 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button:hover {
+	color: #E50914;
+}
+
